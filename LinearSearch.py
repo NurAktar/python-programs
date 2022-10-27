@@ -1,4 +1,4 @@
-def search(lst,ele)
+def search(lst,ele):
   n=len(lst)
   for i in range(n):
     if ele == lst[i]:
