@@ -12,7 +12,7 @@ def search(lst,ele):
   return -1
 
 lst = [2,5,9,4,8,6]
-lst.sort()   #[2,4,5,6,8,9]
+lst.sort()   
 ele_to_search = 5
 ans = search(lst,ele_to_search)
 print(ans)
